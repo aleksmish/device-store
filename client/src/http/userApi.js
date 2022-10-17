@@ -1,4 +1,4 @@
-import { $authHost, $host, $hosts } from './index'
+import { $authHost, $host } from './index'
 import jwt_decode from 'jwt-decode'
 
 export const registration = async(email, password) => {
